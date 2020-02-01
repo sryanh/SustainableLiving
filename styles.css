@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: 5rem !important;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  padding-bottom: 50px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.pictures{
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+.bottom-pics{
+  padding-top: 50px;
+}
+.info{
+  text-align: left;
+  font-size: 1.5rem;
+  padding: 40px !important;
+}
+.bg-light{
+    background-color: #9AAF9E !important;
+    font-size: 1.9rem !important;
+}
+.collapse-navbar-collapse{
+  background-color: #9AAF9E !important;
+}
+.navbar-brand{
+  font-size: 2.3rem !important;
+}
+.dropdown-menu{
+  background-color: #9AAF9E !important;
+  font-size: 1.5rem !important;
+}
+.header{
+  text-align: center;
+  font-family: 'Amatic SC', cursive !important;
+}
+.main-page-header{
+  font-family: 'Amatic SC', cursive !important;
+  text-align: left;
+  font-size: 54px;
+  padding: 40px;
+}
+.header-container{
+  display: flex;
+  justify-content: center;
+}
+.header-photo{
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.Front_Page_Text{
+  font-family: 'Oswald', sans-serif !important;
+}
+
+.footer {
+  height: 100px;
+  background-color: #D9C3AD !important;
+  font-size: 20px;
+  text-align: center;
+}
+.header1 {
+  padding: 20px;
+  text-align: left;
+}
+.stats_page {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px;
+}
+
+.Second_Text {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 50px;
+}
+.main_Info{
+  display: flex;
+  flex-wrap: wrap;
+}
+.textt{
+  padding: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .sign-up,
+    .feature-1,
+    .feature-2,
+    .feature-3 {
+      width: 50%;
+    }
+}
+@media only screen and (min-width: 961px) {
+  
+}
